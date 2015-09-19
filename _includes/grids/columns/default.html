@@ -17,6 +17,6 @@
     {% endif %}
     {% if column.image != nil %}
     {% assign image = column.image %}
-    <img class="img-responsive img-rounded" src="{{ column.image }}" />
+    <img class="img-responsive img-rounded" src="{{ column.image | prepend: site.url }}" />
     {% endif %}
 </div>

@@ -2,7 +2,7 @@
     <div class="grid__inner">
         <div class="horizontal-align">
             {% if include.grid.image != nil %}
-            <img src="{{ include.grid.image }}" />
+            <img src="{{ include.grid.image | prepend: site.url }}" />
             {% endif %}
             {% if include.grid.heading != nil %}
             <h3 class="heading">{{ include.grid.heading }}</h3>

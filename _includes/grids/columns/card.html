@@ -10,7 +10,7 @@
 <div class="card column-span-{{ column.width }}{{ align }}">
     {% if column.image != nil %}
     {% assign image = column.image %}
-    <img class="card-img-top" src="{{ column.image }}" />
+    <img class="card-img-top" src="{{ column.image | prepend: site.url }}" />
     {% endif %}
     <div class="card-block">
         <h2 class="card-title">{{ column.title }}</h2>
