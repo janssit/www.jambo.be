@@ -1,0 +1,15 @@
+<div class="grid grid--{{ include.index }} grid--{{ include.grid.type }}">
+    <div class="grid__inner">
+        {% for column in include.grid.columns %}
+
+        {% assign type = 'default' %}
+
+        {% if column.type != nil %}
+        {% assign type = column.type %}
+        {% endif %}
+
+        {% include {{ type | prepend: 'grids/columns/' | append: '.html' }} column=column %}
+
+        {% endfor %}
+    </div>
+</div>

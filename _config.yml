@@ -1,0 +1,25 @@
+# Site settings
+description:
+url: "http://localhost:1234" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# We don't want to publish some files
+exclude: [
+  'Gemfile',
+  'Gemfile.lock',
+  'README.md',
+  'node_modules',
+  'bower_components',
+  'bower.json',
+  'package.json',
+  'gruntfile.js',
+]
+
+fonts:
+  - Libre+Baskerville:400,700
+  - Stardos+Stencil
+
+thumbor-key: false
+thumbor-url: "http://54.93.197.78"

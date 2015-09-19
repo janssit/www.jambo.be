@@ -1,0 +1,39 @@
+.grid__inner {
+  // page acts as a container for our grid.
+  @include container;
+  padding-left: $grid-padding;
+  padding-right: $grid-padding;
+
+  max-width: 1024px;
+}
+
+@include breakpoint($beta) {
+  .one-half {
+    @include gallery(6 of 12);
+  }
+}
+
+@include breakpoint($charlie) {
+  .column-span-2 { @include span(2 of 12); }
+  .column-span-3 { @include span(3 of 12); }
+  .column-span-4 { @include span(4 of 12); }
+  .column-span-5 { @include span(5 of 12); }
+  .column-span-6 { @include span(6 of 12); }
+  .column-span-7 { @include span(7 of 12); }
+  .column-span-8 { @include span(8 of 12); }
+  .column-span-9 { @include span(9 of 12); }
+  .column-span-10 { @include span(10 of 12); }
+
+  .grid__inner {
+    .column-span-2:first-child { @include span(first 2 of 12); }
+    .column-span-3:first-child { @include span(first 3 of 12); }
+    .column-span-4:first-child { @include span(first 4 of 12); }
+    .column-span-5:first-child { @include span(first 5 of 12); }
+    .column-span-6:first-child { @include span(first 6 of 12); }
+    .column-span-7:first-child { @include span(first 7 of 12); }
+    .column-span-8:first-child { @include span(first 8 of 12); }
+    .column-span-9:first-child { @include span(first 9 of 12); }
+    .column-span-10:first-child { @include span(first 10 of 12); }
+  }
+}
+

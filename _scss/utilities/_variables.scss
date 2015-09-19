@@ -1,0 +1,22 @@
+// Bootstrap
+
+$font-family-sans-serif: 'Libre Baskerville', serif;
+$headings-font-family: 'Stardos Stencil', cursive;
+$brand-primary: #4a4f6d;
+
+// Includes all the imports from the standard Bootstrap project, but enables
+// the flexbox variable.
+
+$enable-flex: true;
+
+
+// Susy
+
+$gutter-width: 3em;
+$grid-padding: 25px;
+
+// Susy grid
+$susy: (
+  gutters: $gutter-width/4em,
+  gutter-position: before
+);

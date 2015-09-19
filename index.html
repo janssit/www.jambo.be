@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for grid in site.data.homepage.grids %}
+  {% include {{ grid.type | prepend: 'grids/' | append: '.html' }} grid=grid index=forloop.index %}
+{% endfor %}

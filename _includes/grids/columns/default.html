@@ -1,0 +1,22 @@
+{% assign column = include.column %}
+
+{% assign align = '' %}
+
+{% if column.design.fonts.align != nil %}
+{% assign align = column.design.fonts.align | prepend: ' text-' %}
+{% endif %}
+
+<div class="column-span-{{ column.width }}{{ align }}">
+    <h2 class="title">{{ column.title }}</h2>
+    {% if column.excerpt != nil %}
+    <div class="excerpt">
+        {% for paragraph in column.excerpt %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% if column.image != nil %}
+    {% assign image = column.image %}
+    <img class="img-responsive img-rounded" src="{{ column.image }}" />
+    {% endif %}
+</div>

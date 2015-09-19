@@ -1,0 +1,14 @@
+{
+  "name": "jambo",
+  "description": "",
+  "homepage": "",
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "twbs/bootstrap#4.0.*",
+    "susy": "ericam/susy#2.2.*",
+    "illusion": "timble/illusion#master"
+  },
+  "devDependencies": {}
+}

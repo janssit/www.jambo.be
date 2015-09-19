@@ -1,0 +1,14 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.data.organization.name }} - {{ site.data.organization.address.addressLocality }}</title>
+  <meta name="description" content="{{ site.data.organization.description }}">
+
+  <link rel="stylesheet" href="{{ "/css/default.css" | prepend: site.baseurl }}">
+
+  {% for font in site.fonts %}
+  <link href='https://fonts.googleapis.com/css?family={{ font }}' rel='stylesheet' type='text/css'>
+  {% endfor %}
+</head>

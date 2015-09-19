@@ -1,0 +1,21 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Diest",
+    "addressRegion": "",
+    "postalCode": "3290",
+    "streetAddress": "Scholenstraat 2"
+  },
+  "name": "Jambo Casual Wear",
+  "description": "Jambo is de specialist in Casual Wear te Diest. Sportieve maar toch stijlvol geaccentueerde kledingslijn voor heren.",
+  "openingHours": [
+    "Tu-Sa 10:00-12:15",
+    "Tu-Sa 13:30-18:00"
+  ],
+  "telephone": "013 32 30 13",
+  "faxNumber": "013 32 30 13",
+  "url": "http://www.jambo.be",
+  "email": "info@jambo.be"
+}

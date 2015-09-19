@@ -1,0 +1,40 @@
+<div class="grid grid--newsletter">
+    <div class="grid__inner">
+        <div class="text-center">
+            <h2>Nieuwsbrief</h2>
+            <p>We houden je graag op de hoogte!</p>
+        </div>
+        <form action="http://nieuwsbrieven.janss.be/t/j/s/ydkldl/" method="post">
+            <div class="column-span-9">
+                <input class="form-control" name="cm-ydkldl-ydkldl" type="email" placeholder="Jouw email adres">
+            </div>
+            <div class="column-span-3">
+                <input class="btn btn-primary btn-block" name="Submit" type="submit" value="Inschrijven">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="grid grid--footer">
+    <div class="grid__inner">
+        <div class="one-half">
+            <h3>Contacteer ons</h3>
+            <p>{{ site.data.organization.address.streetAddress }}<br>
+                {{ site.data.organization.address.postalCode }} {{ site.data.organization.address.addressLocality }}</p>
+            <ul class="contact-list">
+                <li>Tel. {{ site.data.organization.telephone }}</li>
+                <li>Fax. {{ site.data.organization.faxNumber }}</li>
+                <li><a href="mailto:{{ site.data.organization.email }}">{{ site.data.organization.email }}</a></li>
+            </ul>
+        </div>
+        <div class="one-half">
+            <h3>Openingsuren</h3>
+            <p><span class="text-strong">Dinsdag tot en met Zaterdag</span><br>10:00 tot 12:15 en van 13:30 tot 18:00</p>
+            <p><span class="text-strong">Maandag &amp; Zondag</span><br>Gesloten</p>
+        </div>
+    </div>
+</div>
+
+<script type="application/ld+json">
+    {{ site.data.organization }}
+</script>

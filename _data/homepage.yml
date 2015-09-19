@@ -1,0 +1,49 @@
+grids:
+  - type: hero
+    image: /images/header/brand.png
+    heading:
+    excerpt:
+  - type: content
+    columns:
+    - title: Het allerbeste in casual- en citywear
+      excerpt:
+        - Kwaliteit, stijl en klasse, maar vooral een goed gevoel!
+      width: 12
+      design:
+        fonts:
+          align: center
+  - type: content
+    columns:
+      - title: Helemaal jou stijl
+        excerpt:
+          - Heb je jezelf al eens afgevraagd of er een kledingzaak bestaat waar je helemaal jou stijl kan vinden?
+          - Bij ons vind je een breed gamma van het allerbeste in casual- en citywear met regelmatige updates van nieuwe merken!
+          - In ons warm en gezellig interieur vinden heren, jong en oud, hun perfecte outfit.
+          - Zoek dus niet verder, je hebt het juiste adres zonet gevonden!
+        width: 6
+      - title:
+        excerpt:
+        image: /images/IMG_3568.jpg
+        width: 6
+  - type: content
+    design:
+      customClass:
+    columns:
+      - title: Ervaren verkoopsteam
+        type: card
+        excerpt:
+          - Ons verkoopsteam helpt je in je zoektocht naar de perfecte outfit.
+        image: /images/IMG_3577.jpg
+        width: 4
+      - title: Hartje van Diest
+        type: card
+        excerpt:
+          - Onze zaak is gelegen in het hartje van Diest, vlakbij de Grote Markt.
+        image: /images/IMG_3601.jpg
+        width: 4
+      - title: Outlet-room
+        type: card
+        excerpt:
+          - Je kan ook terecht in onze outlet-room op onze 1ste verdieping.
+        image: /images/IMG_3574.jpg
+        width: 4

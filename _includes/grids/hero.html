@@ -1,0 +1,15 @@
+<div class="grid grid--{{ include.index }} grid--{{ include.grid.type }}">
+    <div class="grid__inner">
+        <div class="horizontal-align">
+            {% if include.grid.image != nil %}
+            <img src="{{ include.grid.image }}" />
+            {% endif %}
+            {% if include.grid.heading != nil %}
+            <h3 class="heading">{{ include.grid.heading }}</h3>
+            {% endif %}
+            {% if include.grid.excerpt != nil %}
+            <p class="excerpt">{{ include.grid.excerpt }}</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
