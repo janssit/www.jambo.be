@@ -2864,7 +2864,7 @@ a.bg-danger:hover {
 
 .grid--brands {
   background-color: #f9f5ec;
-  padding-top: 0px; }
+  padding-top: 1px; }
   .grid--brands .grid__inner {
     max-width: 700px; }
   .grid--brands img {
