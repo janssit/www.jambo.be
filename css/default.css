@@ -2868,7 +2868,8 @@ a.bg-danger:hover {
   .grid--brands .grid__inner {
     max-width: 700px; }
   .grid--brands img {
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 100px; }
 
 h2 {
   font-family: 'Stardos Stencil', cursive; }
