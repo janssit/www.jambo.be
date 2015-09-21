@@ -6,7 +6,7 @@
 {% assign align = column.design.fonts.align | prepend: ' text-' %}
 {% endif %}
 
-<div class="column-span-{{ column.width }}{{ align }}">
+<div class="column column-span-{{ column.width }}{{ align }}">
     <h2 class="title">{{ column.title }}</h2>
     {% if column.excerpt != nil %}
     <div class="excerpt">

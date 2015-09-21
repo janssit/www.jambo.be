@@ -1,9 +1,13 @@
 grids:
   - type: hero
+    design:
+      customClass: hero
     image: /images/header/brand.png
     heading:
     excerpt:
   - type: content
+    design:
+      customClass: title
     columns:
     - title: Het allerbeste in casual- en citywear
       excerpt:
@@ -13,6 +17,8 @@ grids:
         fonts:
           align: center
   - type: content
+    design:
+      customClass: intro
     columns:
       - title: Helemaal jou stijl
         excerpt:
@@ -27,7 +33,17 @@ grids:
         width: 6
   - type: content
     design:
-      customClass:
+      customClass: brands
+    columns:
+      - image: /images/brands/castiron.png
+        width: 4
+      - image: /images/brands/forall7mankind.png
+        width: 4
+      - image: /images/brands/pme_legend_jeans.png
+        width: 4
+  - type: content
+    design:
+      customClass: blocks
     columns:
       - title: Ervaren verkoopsteam
         type: card

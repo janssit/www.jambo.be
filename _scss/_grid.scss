@@ -37,3 +37,12 @@
   }
 }
 
+@include breakpoint($alpha) {
+  .grid--brands {
+    .column { @include span(4 of 12); }
+
+    .grid__inner {
+      .column:first-child { @include span(first 4 of 12); }
+    }
+  }
+}

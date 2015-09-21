@@ -2762,6 +2762,16 @@ a.bg-danger:hover {
     float: left;
     margin-left: 0; } }
 
+@media screen and (min-width: 25em) {
+  .grid--brands .column {
+    width: 30.8641975309%;
+    float: left;
+    margin-left: 3.7037037037%; }
+  .grid--brands .grid__inner .column:first-child {
+    width: 30.8641975309%;
+    float: left;
+    margin-left: 0; } }
+
 .header a {
   padding: 29px 0;
   display: block; }
@@ -2815,42 +2825,48 @@ a.bg-danger:hover {
 .grid--footer {
   padding: 50px 0; }
 
-.grid--2,
+.grid--title,
 .grid--footer {
   background-color: #4a4f6d;
   border-top: 1px solid #40445e;
   border-bottom: 1px solid #40445e;
   color: white; }
 
-.grid--3,
+.grid--intro,
 .grid--newsletter {
   background-color: #f9f5ec; }
-  .grid--3 img,
+  .grid--intro img,
   .grid--newsletter img {
     border: 1px solid #cfc6bd; }
 
-.grid--4 {
+.grid--blocks {
   background-color: #d9d3cc;
   border-top: 1px solid #cfc6bd;
   border-bottom: 1px solid #cfc6bd;
   padding-bottom: 25px; }
 
-.grid--4 h2 {
+.grid--blocks h2 {
   font-size: 1.5rem; }
 
-.grid--2 {
+.grid--title {
   font-family: 'Stardos Stencil', cursive; }
-  .grid--2 .title {
+  .grid--title .title {
     font-size: 2.15rem; }
-  .grid--2 .excerpt {
+  .grid--title .excerpt {
     font-size: 1.35rem; }
-    .grid--2 .excerpt p {
+    .grid--title .excerpt p {
       margin-bottom: 0; }
   @media screen and (min-width: 37.5em) {
-    .grid--2 .title {
+    .grid--title .title {
       font-size: 2.5rem; }
-    .grid--2 .excerpt {
+    .grid--title .excerpt {
       font-size: 1.5rem; } }
+
+.grid--brands {
+  background-color: #f9f5ec;
+  padding-top: 0px; }
+  .grid--brands img {
+    margin: 0 auto; }
 
 h2 {
   font-family: 'Stardos Stencil', cursive; }

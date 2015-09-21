@@ -72,7 +72,7 @@
   padding: 50px 0;
 }
 
-.grid--2,
+.grid--title,
 .grid--footer {
   background-color: #4a4f6d;
   border-top: 1px solid darken(#4a4f6d, 5%);
@@ -80,7 +80,7 @@
   color: white;
 }
 
-.grid--3,
+.grid--intro,
 .grid--newsletter {
   background-color: #f9f5ec;
 
@@ -89,20 +89,20 @@
   }
 }
 
-.grid--4 {
+.grid--blocks {
   background-color: lighten(#c4b9ae, 10%);
   border-top: 1px solid lighten(#c4b9ae, 5%);
   border-bottom: 1px solid lighten(#c4b9ae, 5%);
   padding-bottom: 25px;
 }
 
-.grid--4 {
+.grid--blocks {
   h2 {
     font-size: 1.5rem;
   }
 }
 
-.grid--2 {
+.grid--title {
   font-family: 'Stardos Stencil', cursive;
 
   .title {
@@ -125,6 +125,15 @@
     .excerpt {
       font-size: 1.5rem;
     }
+  }
+}
+
+.grid--brands {
+  background-color: #f9f5ec;
+  padding-top: 0px;
+
+  img {
+    margin: 0 auto;
   }
 }
 
