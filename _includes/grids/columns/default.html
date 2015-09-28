@@ -1,13 +1,20 @@
 {% assign column = include.column %}
 
 {% assign align = '' %}
+{% assign width = '' %}
 
 {% if column.design.fonts.align != nil %}
 {% assign align = column.design.fonts.align | prepend: ' text-' %}
 {% endif %}
 
-<div class="column column-span-{{ column.width }}{{ align }}">
+{% if column.width != nil %}
+{% assign width = column.width | prepend: ' column-span-' %}
+{% endif %}
+
+<div class="column{{ width }}{{ align }}">
+    {% if column.title != nil %}
     <h2 class="title">{{ column.title }}</h2>
+    {% endif %}
     {% if column.excerpt != nil %}
     <div class="excerpt">
         {% for paragraph in column.excerpt %}

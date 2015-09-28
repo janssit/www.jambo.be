@@ -1,13 +1,17 @@
 {% assign column = include.column %}
 
 {% assign align = '' %}
+{% assign width = '' %}
 
 {% if column.design.fonts.align != nil %}
 {% assign align = column.design.fonts.align | prepend: ' text-' %}
 {% endif %}
 
+{% if column.width != nil %}
+{% assign width = column.width | prepend: ' column-span-' %}
+{% endif %}
 
-<div class="card column column-span-{{ column.width }}{{ align }}">
+<div class="card column{{ width }}{{ align }}">
     {% if column.image != nil %}
     {% assign image = column.image %}
     <img class="card-img-top" src="{{ column.image | prepend: site.url }}" />

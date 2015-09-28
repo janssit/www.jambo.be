@@ -37,12 +37,20 @@
   }
 }
 
-@include breakpoint($alpha) {
+@include breakpoint($zero) {
   .grid--brands {
-    .column { @include span(4 of 12); }
+    .column { @include gallery(6 of 12); }
+  }
+}
 
-    .grid__inner {
-      .column:first-child { @include span(first 4 of 12); }
-    }
+@include breakpoint($beta) {
+  .grid--brands {
+    .column { @include gallery(4 of 12); }
+  }
+}
+
+@include breakpoint($charlie) {
+  .grid--brands {
+    .column { @include gallery(1 of 5); }
   }
 }
