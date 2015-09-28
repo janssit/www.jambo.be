@@ -2913,11 +2913,11 @@ a.bg-danger:hover {
 .grid--brands {
   background-color: #f9f5ec;
   padding-top: 1px;
-  padding-bottom: 30px; }
+  padding-bottom: 25px; }
   .grid--brands .column {
     height: 100px;
     display: flex;
-    margin-bottom: 20px; }
+    margin-bottom: 25px; }
   .grid--brands img {
     display: block;
     margin: auto;

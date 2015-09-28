@@ -36,23 +36,15 @@ grids:
       customClass: brands
     columns:
       - image: /images/brands/castiron.png
-        width:
       - image: /images/brands/forall7mankind.png
-        width:
       - image: /images/brands/pme_legend_jeans.png
-        width:
       - image: /images/brands/dstrezzed.png
-        width:
       - image: /images/brands/dbz.png
-        width:
       - image: /images/brands/men-of-all-nations.png
-        width:
       - image: /images/brands/no-excess.png
-        width:
       - image: /images/brands/ted-baker.png
-        width:
       - image: /images/brands/scalpers.png
-        width: 
+      - image: /images/brands/embrace-skull.jpg
   - type: content
     design:
       customClass: blocks
