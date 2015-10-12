@@ -2837,14 +2837,9 @@ a.bg-danger:focus, a.bg-danger:hover {
   padding-top: 1px;
   padding-bottom: 25px; }
   .grid--brands .column {
-    height: 100px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    margin: auto;
     margin-bottom: 25px; }
   .grid--brands img {
-    display: block;
     max-width: 100px; }
 
 h2 {

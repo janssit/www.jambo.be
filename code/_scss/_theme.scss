@@ -134,13 +134,11 @@
   padding-bottom: 25px;
 
   .column {
-    height: 100px;
-    display: flex;
+    margin: auto;
     margin-bottom: 25px;
   }
 
   img {
-    display: block;
     max-width: 100px;
   }
 }
