@@ -2840,7 +2840,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     margin-bottom: 25px; }
   .grid--brands img {
     max-width: 100px;
-    margin: auto 0; }
+    margin: 0 auto; }
 
 h2 {
   font-family: 'Stardos Stencil', cursive; }
