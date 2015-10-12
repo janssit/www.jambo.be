@@ -2837,10 +2837,10 @@ a.bg-danger:focus, a.bg-danger:hover {
   padding-top: 1px;
   padding-bottom: 25px; }
   .grid--brands .column {
-    margin: auto;
     margin-bottom: 25px; }
   .grid--brands img {
-    max-width: 100px; }
+    max-width: 100px;
+    margin: auto 0; }
 
 h2 {
   font-family: 'Stardos Stencil', cursive; }
