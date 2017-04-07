@@ -36,7 +36,7 @@
 </div>
 
 <script type="application/ld+json">
-    {{ site.data.organization }}
+    {{ site.data.organization | replace: '=>', ':' }}
 </script>
 
 </body>

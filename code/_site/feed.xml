@@ -3,11 +3,11 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://www.jambo.be/</link>
-    <atom:link href="http://www.jambo.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Oct 2015 12:25:45 +0200</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 12:25:45 +0200</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://janssit.github.io/www.jambo.be/</link>
+    <atom:link href="http://janssit.github.io/www.jambo.be/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 07 Apr 2017 12:31:04 +0200</pubDate>
+    <lastBuildDate>Fri, 07 Apr 2017 12:31:04 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
   </channel>
 </rss>
