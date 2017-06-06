@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://janssit.github.io/www.jambo.be/</link>
-    <atom:link href="http://janssit.github.io/www.jambo.be/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 Apr 2017 12:31:04 +0200</pubDate>
-    <lastBuildDate>Fri, 07 Apr 2017 12:31:04 +0200</lastBuildDate>
+    <link>http://www.jambo.be/</link>
+    <atom:link href="http://www.jambo.be/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 06 Jun 2017 20:55:41 +0200</pubDate>
+    <lastBuildDate>Tue, 06 Jun 2017 20:55:41 +0200</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
   </channel>

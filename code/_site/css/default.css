@@ -1011,9 +1011,6 @@ html {
 @-ms-viewport {
   width: device-width; }
 
-@-o-viewport {
-  width: device-width; }
-
 @-webkit-viewport {
   width: device-width; }
 
@@ -1291,8 +1288,7 @@ mark,
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
-  -webkit-transition: all 0.2s ease-in-out;
-          transition: all 0.2s ease-in-out;
+  transition: all .2s ease-in-out;
   display: inline-block;
   max-width: 100%;
   height: auto; }
@@ -1318,9 +1314,6 @@ mark,
     border-color: #66afe9;
     outline: none; }
   .form-control::-webkit-input-placeholder {
-    color: #999;
-    opacity: 1; }
-  .form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
@@ -1660,11 +1653,11 @@ fieldset[disabled] a.btn {
   .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active,
   .open > .btn-secondary.dropdown-toggle {
     color: #373a3c;
-    background-color: #e6e6e6;
+    background-color: #e6e5e5;
     border-color: #adadad; }
   .btn-secondary:hover {
     color: #373a3c;
-    background-color: #e6e6e6;
+    background-color: #e6e5e5;
     border-color: #adadad; }
   .btn-secondary:active, .btn-secondary.active,
   .open > .btn-secondary.dropdown-toggle {
@@ -2068,17 +2061,14 @@ input[type="button"].btn-block {
 
 .card-deck {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
   margin-right: -.625rem;
   margin-left: -.625rem; }
   .card-deck .card {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 0;
         -ms-flex: 1 0 0;
             flex: 1 0 0;
     margin-right: .625rem;
@@ -2086,15 +2076,12 @@ input[type="button"].btn-block {
 
 .card-group {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap; }
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
   .card-group .card {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 0 0;
         -ms-flex: 1 0 0;
             flex: 1 0 0; }
     .card-group .card + .card {
@@ -2116,10 +2103,8 @@ input[type="button"].btn-block {
 
 .card-columns {
   -webkit-column-count: 3;
-     -moz-column-count: 3;
           column-count: 3;
   -webkit-column-gap: 1.25rem;
-     -moz-column-gap: 1.25rem;
           column-gap: 1.25rem; }
   .card-columns .card {
     display: inline-block;

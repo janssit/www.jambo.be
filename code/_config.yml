@@ -1,6 +1,6 @@
 # Site settings
 description:
-url: "http://janssit.github.io/www.jambo.be" # the base hostname & protocol for your site
+url: "http://www.jambo.be" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
@@ -20,6 +20,3 @@ exclude: [
 fonts:
   - Libre+Baskerville:400,700
   - Stardos+Stencil
-
-thumbor-key: false
-thumbor-url: "http://54.93.197.78"
