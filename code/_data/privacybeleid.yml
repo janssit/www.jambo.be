@@ -1,0 +1,7 @@
+grids:
+  - type: hero
+    design:
+      customClass: hero
+    image: /images/header/brand.png
+    heading:
+    excerpt:
