@@ -1,0 +1,13 @@
+// Fluid type
+
+@mixin fluid-type($min-value: $fluid-type-min-value, $max-value: $fluid-type-max-value, $min-screen: $fluid-type-min-screen, $max-screen: $fluid-type-max-screen) {
+  font-size: $min-value;
+
+  @media screen and (min-width: $min-screen) {
+    font-size: calc-interpolation($min-screen, $min-value, $max-screen, $max-value);
+  }
+
+  @media screen and (min-width: $max-screen) {
+    font-size: $max-value;
+  }
+}

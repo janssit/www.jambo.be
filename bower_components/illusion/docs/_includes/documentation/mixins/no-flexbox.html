@@ -1,0 +1,28 @@
+---
+
+### @mixin no-flexbox
+
+Style only when browser does not support flexbox.
+
+#### Dependencies
+
+For flexbox to work properly it uses Modernizr `.flexbox` and `.flexboxlegacy`
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include no-flexbox {
+    display: table;
+  }
+}
+{% endhighlight %}
+
+#### SCSS
+
+{% highlight css %}
+.no-flexbox .foo,
+.no-flexboxlegacy .foo {
+  display: table;
+}
+{% endhighlight %}

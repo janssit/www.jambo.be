@@ -1,0 +1,27 @@
+---
+
+### @mixin transitation
+
+Shortcut to set one or more transition properties.
+
+#### Arguments
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| `transitions` | `list` | - | Comma separated list. Each item can have three sub-items and will fall back to the default values. |
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include transition(opacity 1s, transform);
+}
+{% endhighlight %}
+
+#### CSS
+
+{% highlight css %}
+.foo {
+  transition: opacity 1s cubic-bezier(0.195, 0.4, 0.45, 0.785) 0ms, transform 0.2s cubic-bezier(0.195, 0.4, 0.45, 0.785) 0ms;
+}
+{% endhighlight %}

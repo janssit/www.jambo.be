@@ -1,0 +1,33 @@
+---
+
+### @mixin reset
+
+#### Arguments
+
+| Name | Type | Default |
+| ---- | ---- | ------- |
+| `margin` | `string` | `0` |
+| `padding` | `string` | `0` |
+| `list-style` | `string` | `none` |
+| `border` | `string` | `none` |
+| `background` | `string` | `transparent` |
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include reset;
+}
+{% endhighlight %}
+
+#### CSS
+
+{% highlight css %}
+.foo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  background: transparent;
+}
+{% endhighlight %}

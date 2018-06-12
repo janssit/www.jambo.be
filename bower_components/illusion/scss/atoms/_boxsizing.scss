@@ -1,0 +1,13 @@
+@if ($illusion-extendalize == true and $illusion-extendalize-boxsizing != false) or $illusion-extendalize-boxsizing == true {
+  /**
+   * Border-box everything
+   */
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+}

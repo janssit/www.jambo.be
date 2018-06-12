@@ -1,0 +1,22 @@
+---
+
+### @mixin font-smoothing
+
+Only use for light text on dark backgrounds.
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include font-smoothing;
+}
+{% endhighlight %}
+
+#### CSS
+
+{% highlight css %}
+.foo {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+{% endhighlight %}

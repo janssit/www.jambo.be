@@ -1,0 +1,23 @@
+---
+
+### @mixin hover
+
+Shortcut for styling both hover and focus.
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include hover {
+    text-decoration: underline;
+  }
+}
+{% endhighlight %}
+
+#### CSS
+
+{% highlight css %}
+.foo:hover, .foo:focus {
+  text-decoration: underline;
+}
+{% endhighlight %}

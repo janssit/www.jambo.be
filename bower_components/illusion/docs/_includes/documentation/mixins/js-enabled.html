@@ -1,0 +1,23 @@
+---
+
+### @mixin js-enabled
+
+If you need styling that only applies to browsers that support JavaScript. Progressive enhancement for the win!
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include js-enabled {
+    display: none;
+  }
+}
+{% endhighlight %}
+
+#### CSS
+
+{% highlight css %}
+.js .foo {
+  display: none;
+}
+{% endhighlight %}

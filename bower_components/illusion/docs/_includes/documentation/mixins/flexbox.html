@@ -1,0 +1,37 @@
+---
+
+### @mixin flexbox
+
+Style only when browser supports flexbox.
+
+#### Arguments
+
+| Name | Type | Default | Description |
+| ---- | ---- | ------- | ----------- |
+| `horizontal` | `string` | `$flexbox-horizontal` | Flex when viewport reached this amount |
+| `vertical` | `string` | `$flexbox-vertical` | Flex when viewport reached this amount |
+
+#### Dependencies
+
+For flexbox to work properly it uses Modernizr `.flexbox` and `.flexboxlegacy`
+
+#### SCSS
+
+{% highlight css %}
+.foo {
+  @include flexbox($beta, $charlie) {
+    display: flex;
+  }
+}
+{% endhighlight %}
+
+#### SCSS
+
+{% highlight css %}
+@media (min-width: 560px) and (min-height: 768px) {
+  .flexbox .foo,
+  .flexboxlegacy .foo {
+    display: flex;
+  }
+}
+{% endhighlight %}
