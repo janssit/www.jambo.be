@@ -1,6 +1,0 @@
-.foo {
-  @include modernizr(csscalc, flexbox) {
-    width: calc(100% - 20px);
-    display: flex;
-  }
-}

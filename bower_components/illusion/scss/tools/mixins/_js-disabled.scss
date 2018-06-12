@@ -1,7 +1,0 @@
-// JS disabled
-
-@mixin js-disabled {
-  @at-root .no-js & {
-    @content;
-  }
-}
